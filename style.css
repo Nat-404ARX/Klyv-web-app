@@ -1,0 +1,138 @@
+:root {
+    --bg-main: #cccccc;
+    --bg-alt: #ced0ce;
+
+    --card: #475841;
+    --card-alt: #9FB8AD;
+
+    --text: #3F403F;
+    --text-alt: #525252 ;
+
+    --cle-off: #950000 ;
+    --cle-on: #579500 ;
+}
+
+* {
+    margin: 0px 0px;
+    z-index: 1;
+}
+
+body {
+    background-color: var(--bg-main);
+    color: var(--text);
+;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--card);
+    z-index: 1;
+    padding: 0% 5%;
+    gap: 38px;
+}
+
+#right-corner {
+    display: flex;
+    flex-direction: row;
+}
+
+main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 22px;
+    z-index: 3;
+}
+
+h2 {
+    background-color: var(--bg-main);
+    border-radius: 12px;
+    padding: 10px 15px;
+    color: var(--text)
+}
+
+h3 {
+    color: var(--bg-main);
+    font-size: 1.3em;
+    z-index: 1;
+}
+
+.box {
+    background-color: var(--text);
+    border-radius: 12px;
+    width: 88%;
+    padding: 5% 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.key {
+    background-color: var(--bg-main);
+    border-radius: 12px;
+    width: 90%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 3%;
+}
+
+.statut-off {
+    background-color: var(--cle-off);
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    color: transparent;
+}
+
+.statut-on {
+    background-color: var(--cle-on);
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    color: transparent;
+}
+
+.statut-text-off {
+    color: var(--cle-off);
+    font-size: 0.8em;
+}
+
+.statut-text-on {
+    color: var(--cle-on);
+    font-size: 0.8em;
+}
+
+.name-key {
+    color: var(--text);
+    font-size: 0.9em;
+}
+
+.name-user {
+    color: var(--text-alt);
+    font-size: 0.85em;
+}
+
+#background {
+    z-index: -3;
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    position: fixed;
+    top: 0px;
+}
+
+
+
+
+
+
