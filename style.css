@@ -53,17 +53,18 @@ h2 {
     background-color: var(--bg-main);
     border-radius: 12px;
     padding: 10px 15px;
-    color: var(--text)
+    color: var(--text);
+    font-size: 1.8em;
 }
 
 h3 {
-    color: var(--bg-main);
-    font-size: 1.3em;
+    color: var(--text-alt);
+    font-size: 1.6em;
     z-index: 1;
 }
 
 .box {
-    background-color: var(--text);
+    background-color: var(--bg-main);
     border-radius: 12px;
     width: 88%;
     padding: 5% 3%;
@@ -75,7 +76,7 @@ h3 {
 }
 
 .key {
-    background-color: var(--bg-main);
+    background-color: var(--card-alt);
     border-radius: 12px;
     width: 90%;
     height: 30px;
@@ -84,6 +85,8 @@ h3 {
     justify-content: space-between;
     align-items: center;
     padding: 0% 3%;
+    color: var(--text);
+    font-size: 17px;
 }
 
 .statut-off {
@@ -129,6 +132,7 @@ h3 {
     background-attachment: fixed;
     position: fixed;
     top: 0px;
+    visibility: hidden;
 }
 
 

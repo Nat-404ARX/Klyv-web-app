@@ -8,6 +8,26 @@
     <link href="./asset/images/Icone.png" rel="shortcut icon">
 </head>
 <body>
-    
+    <form id="crudForm">
+        <select id="action">
+            <option value="group">Créer un groupe</option>
+            <option value="key">Créer une clé</option>
+        </select>
+
+        <input type="text" id="groupName" placeholder="Nom du groupe">
+
+        <select id="groupSelect"></select>
+
+        <input type="text" id="keyName" placeholder="Nom de la clé">
+        <input type="text" id="owner" placeholder="Propriétaire">
+
+        <select id="status">
+            <option value="on">Présent</option>
+            <option value="off">Absent</option>
+        </select>
+
+        <button type="submit">Valider</button>
+    </form>
+
 </body>
 </html>
