@@ -1,5 +1,5 @@
 :root {
-    --bg-main: #cccccc;
+    --bg-main: #edebeb;
     --bg-alt: #ced0ce;
 
     --card: #475841;
@@ -87,6 +87,7 @@ h3 {
     padding: 0% 3%;
     color: var(--text);
     font-size: 17px;
+    opacity: 35%;
 }
 
 .statut-off {
@@ -135,8 +136,63 @@ h3 {
     visibility: hidden;
 }
 
+.historique {
+    background-color: var(--bg-main);
+    border-radius: 12px;
+    width: 88%;
+    padding: 5% 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.message {
+    background-color: var(--card-alt);
+    border-radius: 12px;
+    width: 90%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 3%;
+    color: var(--text);
+    font-size: 17px;
+    opacity: 35%;
+}
 
 
+.icon-message {
+    height: 48px;
+}
 
+.notif-entier {
+    display: flex;
+    flex-direction: column;
+    height: 44px;
+}
 
+.notif {
+    display: flex;
+    flex-direction: row;
+    height: 24px;
+    flex-wrap: wrap;
+}
 
+.titre-notif {
+    font-size: 8px;
+    color: var(--text);
+    width: 70%;
+}
+
+.heure {
+    font-size: 13px;
+    width: 25%;
+}
+
+.contenue {
+    color: var(--text);
+    font-size: 9px;
+}
